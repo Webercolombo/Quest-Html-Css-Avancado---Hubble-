@@ -1,0 +1,123 @@
+body {
+
+    font-size: 62.5%;
+    font-family: "Poppins", system-ui;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    width: 1440px;
+    height: 800px;
+
+}
+
+
+/* CABECALHO */
+
+.cabecalho {
+
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+/* CONTEUDO */
+
+.conteudo {
+
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteudo img {
+
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.informacao {
+
+    margin-left: 50px;
+
+}
+
+.informacao .titulo {
+
+    font-size: 35px;
+    margin-top: 50px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.informacao .descricao {
+
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    margin-right: 30px;
+    font-weight: 250;
+}
+
+.informacao .register a {
+
+    border-radius: 25px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 20px;
+    padding: 10px 55px;
+    transition: 0.3s;
+
+}
+
+.informacao a:hover {
+
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.register {
+
+    margin: 30px 1px;
+
+}
+
+.informacao .register a {
+
+    font-size: 16px;
+
+}
+
+/* RODAPE */
+
+.rodape {
+
+    text-align: end;
+    margin-bottom: 50px;
+}
+
+.rodape a {
+
+    font-size: 30px;
+    margin-right: 15px;
+
+}
+
+.rodape a:hover {
+
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    border: 2px;
+
+}
